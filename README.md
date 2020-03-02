@@ -14,3 +14,19 @@ To build the complete recipe book, open the master document (AndNowIDreamRecipeB
 To create a PDF version choose <File...Export As...Export Directly as PDF>.  This will create a searchable PDF document, whereas printing to a PDF document from the print menu may create a graphic-image PDF -- which is not searchable.
 
 The page format assumes a 1/2-letter size -- i.e. a normal 8.5x11 sheet cut in half to form two sheets 5.5 wide by 8.5 inches tall.  If you print this double-sided on heavy weight paper stock and hole punch the pages, they will fit very nicely into a small 3-ring binder that when open lies flat and doesn't take up much space on your countertop.
+
+Formatting Tips:
+
+The recipe book uses LibreOffice "styles" for formatting, which can be great if you are familiar with them, and if not, then not so much. 
+
+The most efficient way to add a new recipe is to copy the entire page(s) of an existing recipe, paste it into your desired location, and then modify that copy -- starting with the recipe title so that you don't get confused as to which is the original and which is the new recipe.
+
+The style names should be fairly self-explanatory.  The trickiest style to use will be the ingredients list, which should format as two columns. Play with it a bit and you should see how it works.
+
+There are styles for sections and subsections. Use these to create full-page dividers. The index at the end of the book uses sections and subsections to narrow down the location of the recipe.  We intentionally do not use page numbers since they will change every time a new recipe is added.
+
+If you are careful about how you edit the title of your copied recipe, you will preserve the title's index tagging so that your new recipe will automatically appear in the index the next time the index is updated.  If you are not careful enough, then it is a relatively simple process to re-tag the title for inclusion in the index. If you turn on field highlighting LibreOffice will show you what is tagged for the index and what is not.  
+
+The same is true for section and subsection styles.  If you are careful they will be tagged automatically. But if you have trouble just go through the process of re-tagging them and then update the index to test.
+
+Whenever you open the master document, Libreoffice will ask if you want to update the subdocs.  If you answer YES then it will update the subdocs, but NOT the index (!).  So a good habit to adopt is to always run an "update all" process before you print the master doc.  This will both pull in all the subdocs AND rebuild the index.  
