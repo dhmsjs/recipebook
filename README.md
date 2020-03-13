@@ -30,3 +30,13 @@ If you are careful about how you edit the title of your copied recipe, you will 
 The same is true for section and subsection styles.  If you are careful they will be tagged automatically. But if you have trouble just go through the process of re-tagging them and then update the index to test.
 
 Whenever you open the master document, Libreoffice will ask if you want to update the subdocs.  If you answer YES then it will update the subdocs, but NOT the index (!).  So a good habit to adopt is to always run an "update all" process before you print the master doc.  This will both pull in all the subdocs AND rebuild the index.  
+
+A Note About Fonts
+
+While testing on a new Linux system recently it became apparent that several title styles use the Gabriola True Type font (Gabriola.ttf).  This is a font that comes bundled with MS Windows 8 and above.  So if you have a more recent Windows system, you have this font already.  I believe that also means you have the copyright permission to use it (but I am not a lawyer).  
+
+I have added the font file to this repository on the assumption that I also have the rights to do so. But again I do not know that for certain, so if anyone with authority ever tells me to remove it, I will.  It's easy enough to find elsewhere if you really want it.
+
+If you don't have the font file already on your system, the recipe book will print just fine without it, except that the font will be replaced by a font that your Libreoffice chooses (or you configure it to choose). 
+
+If you do want to add the font to your Linux system, you just need to copy it to your system's font folder, and then update the font cache (or restart the computer).
