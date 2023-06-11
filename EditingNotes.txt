@@ -1,0 +1,14 @@
+6/11/23
+
+To add new recipes or make corrections:
+
+1) Use LibreOffice to open the master doc (.odm)
+2) Open the Navigator view to see all the subdocuments;
+3) To make a change you MUST edit the subdocument; changes to the master do not persist!
+4) You can use the navigator to select a subdoc by double-clicking on it.
+5) To add a new recipe, copy an existing recipe page, paste in the copy, and then edit it. This is the easiest way to maintain formatting.
+6) After you have modified the subdoc, propagate the change to the master by selecting "Update->All" in the top menu bar of the Navigator;
+7) Save the master doc (.odm) so that it too has the latest subdoc changes.
+8) Export the master doc to a pdf so that you have a static copy of the new recipe book.
+
+Note that styles in the master doc override styles in subdocs with the same name. So to prevent formatting surprises, if you change a style, make sure that new version exists in both the master and the subdoc.
